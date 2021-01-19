@@ -1,49 +1,22 @@
 public class CEO extends Employee{
-    private boolean hasCompanyCar = true;
-    private String name;
-    private double salary;
-    private int age;
+    boolean hasCompanyCar;
 
-    public void sethasCompanyCar(boolean hasCompanyCar) {
-        this.hasCompanyCar = hasCompanyCar;
+    public CEO(String name, int age, double salary) {
+        super(name, age, salary);
     }
-    public boolean gethasCompanyCar() {
+
+    public boolean isHasCompanyCar() {
         return hasCompanyCar;
     }
 
-    public CEO(boolean hasCompanyCar) {
+    public void setHasCompanyCar(boolean hasCompanyCar) {
         this.hasCompanyCar = hasCompanyCar;
     }
 
-    @Override
-    public int getAge() {
-        return age;
-    }
-
-    @Override
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public double getSalary() {
-        return salary;
-    }
-
-    @Override
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
     public void goPublic(){
-        System.out.println("CEO" + " Work IPO");
+       // super.Work();
+        System.out.println(" CEO - everyday work.  " + " -Work BMW Company.   ---" + " КОМПАНИЯ БМВ : " + isHasCompanyCar() + getName() +
+                ", ЗАРПЛАТА ДИРЕКТОРА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
+
     }
 }

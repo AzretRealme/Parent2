@@ -1,48 +1,23 @@
 public class Manager extends Employee{
-    private String name;
-    private boolean hasStocks = true;
-    private double salary;
-    private int age;
-    public void setHasStocks(boolean hasStocks) {
-        this.hasStocks = hasStocks;
+
+    boolean hasStocks;
+
+    public Manager(String name, int age, double salary) {
+        super(name, age, salary);
     }
-    public boolean getHasStocks() {
+
+    public boolean isHasStocks() {
         return hasStocks;
     }
 
-    public Manager(boolean hasStocks) {
+    public void setHasStocks(boolean hasStocks) {
         this.hasStocks = hasStocks;
     }
 
-    @Override
-    public int getAge() {
-        return age;
-    }
-
-    @Override
-    public void setAge(int age) {
-        this.age = age;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    @Override
-    public double getSalary() {
-        return salary;
-    }
-
-    @Override
-    public void setSalary(double salary) {
-        this.salary = salary;
-    }
-
     public void writeProcedures(){
-        System.out.println("Managers " + " WriteProcedures");
+        //super.Work();
+        System.out.println(" Managers - awesome work.  " + " -WriteProccess.  ---" + getName() + ", ЗАРПЛАТА МЕНЕДЖЕРА: " + getSalary() + ", ВОЗРАСТ: " +
+                getAge() + ", АКЦИИ ТЕСЛА : " + isHasStocks());
     }
+
 }

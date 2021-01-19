@@ -1,128 +1,52 @@
 public class Main {
     public static void main(String[] args){
-        Employee Maik = new Employee();
-        Maik.setName("Maik");
-        Maik.setSalary(10000);
-        Maik.setAge(20);
+        Employee Maik = new Employee(" Имя: - Maik", 20, 10000);
         Maik.Work();
 
-        System.out.println(Maik.getName());
-        System.out.println(Maik.getSalary());
-        System.out.println(Maik.getAge());
-
-
-        Specialist Carl = new Specialist(10);
-        Carl.setName("Carl");
-        Carl.setSalary(25000);
-        Carl.setAge(28);
+        Specialist Carl = new Specialist(" Имя: - Carl", 28, 25000);
+        Carl.setLevels(10);
         Carl.workWithClients();
 
-        System.out.println(Carl.getName());
-        System.out.println(Carl.getLevels());
-        System.out.println(Carl.getSalary());
-        System.out.println(Carl.getAge());
-
-        Specialist Shown = new Specialist(10);
-        Shown.setName("Shown");
-        Shown.setSalary(25000);
-        Shown.setAge(29);
+        Specialist Shown = new Specialist(" Имя: - Shown", 29, 25000);
+        Shown.setLevels(10);
         Shown.workWithClients();
 
-        System.out.println(Shown.getName());
-        System.out.println(Shown.getLevels());
-        System.out.println(Shown.getSalary());
-        System.out.println(Shown.getAge());
-
-        Specialist Kane = new Specialist(10);
-        Kane.setName("Kane");
-        Kane.setSalary(25000);
-        Kane.setAge(27);
+        Specialist Kane = new Specialist(" Имя: - Kane", 27, 25000);
+        Kane.setLevels(10);
         Kane.workWithClients();
 
-        System.out.println(Kane.getName());
-        System.out.println(Kane.getLevels());
-        System.out.println(Kane.getSalary());
-        System.out.println(Kane.getAge());
-
-
-        Developer Casa = new Developer();
-        Casa.setGrades("Middle");
-        Casa.setName("Casa");
-        Casa.setSalary(30000);
-        Casa.setAge(23);
+        Developer Casa = new Developer(" Имя: - Casa", 23, 30000);
+        Casa.setGrades(" Middle ");
         Casa.writeCode();
 
-        System.out.println(Casa.getGrades());
-        System.out.println(Casa.getName());
-        System.out.println(Casa.getSalary());
-        System.out.println(Casa.getAge());
-
-        Developer John = new Developer();
+        Developer John = new Developer(" Имя: - John", 29, 80000);
         John.setGrades("High");
-        John.setName("Casa");
-        John.setSalary(80000);
-        John.setAge(29);
         John.writeCode();
 
-        System.out.println(John.getGrades());
-        System.out.println(John.getName());
-        System.out.println(John.getSalary());
-        System.out.println(John.getAge());
-
-        Developer Margaret = new Developer();
-        Margaret.setGrades("Middle");
-        Margaret.setName("Casa");
-        Margaret.setSalary(30000);
-        Margaret.setAge(23);
+        Developer Margaret = new Developer(" Имя: - Margaret", 23, 30000);
+        Margaret.setGrades(" Middle ");
         Margaret.writeCode();
 
-        System.out.println(Margaret.getGrades());
-        System.out.println(Margaret.getName());
-        System.out.println(Margaret.getSalary());
-        System.out.println(Margaret.getAge());
-
-        Developer Maddison = new Developer();
-        Maddison.setGrades("Middle");
-        Maddison.setName("Casa");
-        Maddison.setSalary(30000);
-        Maddison.setAge(24);
+        Developer Maddison = new Developer(" Имя: - Maddison ", 24, 30000);
+        Maddison.setGrades(" Middle ");
         Maddison.writeCode();
 
-        System.out.println(Maddison.getGrades());
-        System.out.println(Maddison.getName());
-        System.out.println(Maddison.getSalary());
-        System.out.println(Maddison.getAge());
-
-        Manager Mark = new Manager(true);
-        Mark.setName("Mark");
-        Mark.setSalary(45000);
-        Mark.setAge(32);
+        Manager Mark = new Manager(" Имя: - Mark", 32, 45000);
+        Mark.setHasStocks(true);
         Mark.writeProcedures();
 
-        System.out.println(Mark.getName());
-        System.out.println(Mark.getName());
-        System.out.println(Mark.getSalary());
-        System.out.println(Mark.getAge());
-
-        Manager Katcher = new Manager(true);
-        Katcher.setName("Katcher");
-        Katcher.setSalary(25000);
-        Katcher.setAge(30);
+        Manager Katcher = new Manager(" Имя: - Katcher", 30, 25000);
+        Mark.setHasStocks(true);
         Katcher.writeProcedures();
 
-        System.out.println(Katcher.getName());
-        System.out.println(Katcher.getName());
-        System.out.println(Katcher.getSalary());
-        System.out.println(Katcher.getAge());
-
-        CEO ceo1 = new CEO(true);
-        ceo1.setName("Bruce");
-        ceo1.setSalary(30000);
-        ceo1.setAge(35);
+        CEO ceo1 = new CEO(" Имя: - Bruce", 35, 30000);
+        ceo1.setHasCompanyCar(true);
         ceo1.goPublic();
 
-        System.out.println(ceo1.getName());
-        System.out.println(ceo1.getSalary());
-        System.out.println(ceo1.getAge());
+        //now do ----------------------------------------------------------------------
+        //пока сильна Джава , будет развиваться С++ ----------------------------------------------------------------------
+
+        //java gosling ----------------------------------------------------------------------
+
     }
 }
