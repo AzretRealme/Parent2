@@ -24,4 +24,8 @@ public class Manager extends Employee{
         System.out.println("Managers say:  I am going to Antaliya ");
     }
 
+    public void goToDayOff(){
+        System.out.println("Менеджеры, Отдохните от своих дел!");
+    }
+
 }

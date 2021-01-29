@@ -23,5 +23,7 @@ public class Developer extends Employee{
         System.out.println("Developers say:  I am going to bootcamp! ");
     }
 
-
+    public void goToDayOff(){
+        System.out.println("Разработчики, Отдохните от своих компьютеров! ");
+    }
 }

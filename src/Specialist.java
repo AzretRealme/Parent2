@@ -23,4 +23,7 @@ public class Specialist extends Employee{
     public void goToVacation(){
         System.out.println("Specialist say: I am go to Stanbul");
     }
+    public void goToDayOff(){
+        System.out.println("Специалисты, Прогуляйтесь в эти выходные!");
+    }
 }

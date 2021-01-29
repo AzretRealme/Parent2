@@ -24,4 +24,7 @@ public class CEO extends Employee{
         System.out.println(" CEO say: I am going to Havail!");
     }
 
+    public void goToDayOff(){
+        System.out.println("Директор, Вам нужен отгул!");
+    }
 }

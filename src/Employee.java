@@ -1,4 +1,4 @@
-public class Employee {
+public abstract class Employee {
 
     private String name;
     private int age;
@@ -48,5 +48,7 @@ public class Employee {
     public void goToVacation(){
         System.out.println(" Employee say: I am going to Sochi ");
     }
+
+    abstract public void goToDayOff();
 
 }
