@@ -44,4 +44,9 @@ public class Employee {
     public void Work(){
         System.out.println(" Emloyee - awesome writing.  ---" + getName() + ", ЗАРПЛАТА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
     }
+
+    public void goToVacation(){
+        System.out.println(" Employee say: I am going to Sochi ");
+    }
+
 }

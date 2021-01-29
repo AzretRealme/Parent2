@@ -20,4 +20,8 @@ public class Manager extends Employee{
                 getAge() + ", АКЦИИ ТЕСЛА : " + isHasStocks());
     }
 
+    public void goToVacation(){
+        System.out.println("Managers say:  I am going to Antaliya ");
+    }
+
 }

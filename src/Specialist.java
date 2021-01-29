@@ -19,4 +19,8 @@ public class Specialist extends Employee{
         System.out.println(" Specialist - awesome speak English. " + " -workWithClients. ---" + getName() + ", РАНГ СПЕЦИАЛИСТА: " + getLevels() +
                 ", ЗАРПЛАТА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
     }
+
+    public void goToVacation(){
+        System.out.println("Specialist say: I am go to Stanbul");
+    }
 }

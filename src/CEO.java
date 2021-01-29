@@ -19,4 +19,9 @@ public class CEO extends Employee{
                 ", ЗАРПЛАТА ДИРЕКТОРА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
 
     }
+
+    public void goToVacation(){
+        System.out.println(" CEO say: I am going to Havail!");
+    }
+
 }
