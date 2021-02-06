@@ -13,9 +13,10 @@ public class Main {
                 new Specialist(" Имя: - Kane", 27, 25000), new CEO(" Имя: - Bruce", 35, 30000)
         };
 
-        for(Employee easyItCompany: arr){
+        /*for(Employee easyItCompany: arr){
             easyItCompany.goToVacation();
-        }
+        }*/
+        
         for(Employee easyItCompany: arr){
             easyItCompany.goToDayOff();
         }
