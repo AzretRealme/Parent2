@@ -1,16 +1,9 @@
+import child.*;
+import parent.Employee;
+
 public class Main {
     public static void main(String[] args){
 
-
-
-        // L I N U X  --------------------------------------------------
-
-         /*
-
-        Интеллект - это способность избегать выполнения работы, ------------------------
-             но так, чтобы она при это была сделана. --------------------------------
-
-         */
 
         Employee[] arr = new Employee[] {
                 new Manager(" Имя: - Mark", 32, 45000), new Manager(" Имя: - Katcher", 30, 25000),

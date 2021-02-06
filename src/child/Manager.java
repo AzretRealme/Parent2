@@ -1,4 +1,8 @@
-public class Manager extends Employee{
+package child;
+
+import parent.Employee;
+
+public class Manager extends Employee {
 
     boolean hasStocks;
 

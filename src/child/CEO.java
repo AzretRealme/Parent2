@@ -1,4 +1,8 @@
-public class CEO extends Employee{
+package child;
+
+import parent.Employee;
+
+public class CEO extends Employee {
     boolean hasCompanyCar;
 
     public CEO(String name, int age, double salary) {
@@ -15,13 +19,13 @@ public class CEO extends Employee{
 
     public void goPublic(){
        // super.Work();
-        System.out.println(" CEO - everyday work.  " + " -Work BMW Company.   ---" + " КОМПАНИЯ БМВ : " + isHasCompanyCar() + getName() +
+        System.out.println(" child.CEO - everyday work.  " + " -Work BMW Company.   ---" + " КОМПАНИЯ БМВ : " + isHasCompanyCar() + getName() +
                 ", ЗАРПЛАТА ДИРЕКТОРА: " + getSalary() + ", ВОЗРАСТ: " + getAge());
 
     }
 
     public void goToVacation(){
-        System.out.println(" CEO say: I am going to Havail!");
+        System.out.println(" child.CEO say: I am going to Havail!");
     }
 
     public void goToDayOff(){

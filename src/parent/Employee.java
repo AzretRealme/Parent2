@@ -1,3 +1,5 @@
+package parent;
+
 public abstract class Employee {
 
     private String name;
@@ -46,7 +48,7 @@ public abstract class Employee {
     }
 
     public void goToVacation(){
-        System.out.println(" Employee say: I am going to Sochi ");
+        System.out.println(" parent.Employee say: I am going to Sochi ");
     }
 
     abstract public void goToDayOff();
